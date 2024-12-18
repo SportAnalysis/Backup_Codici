@@ -45,7 +45,7 @@ jobs:
         
     - name: Execute Notebook
       run: |
-        jupyter nbconvert --to notebook --execute programma_trading_break.ipynb --output executed_notebook.ipynb
+        jupyter nbconvert --to notebook --execute programma_break.ipynb --output executed_notebook.ipynb
 
     - name: Check for changes and commit
       run: |
